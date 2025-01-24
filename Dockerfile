@@ -9,7 +9,7 @@ WORKDIR /opt/app
 
 COPY ${artifact} app.jar
 
-EXPOSE 8000
+EXPOSE 8080
 
 # This should not be changed
 ENTRYPOINT ["java","-jar","app.jar"]
